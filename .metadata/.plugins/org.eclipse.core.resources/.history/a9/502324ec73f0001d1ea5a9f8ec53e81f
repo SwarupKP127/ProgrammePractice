@@ -1,0 +1,5 @@
+package com.ccavenue.model.receiver;
+
+public class MessageReceiver {
+
+}

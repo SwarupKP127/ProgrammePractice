@@ -1,0 +1,6 @@
+package com.ccavenue.config;
+
+public class AppConfig {
+
+	// Put Other Application configuration here.
+}

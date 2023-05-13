@@ -1,0 +1,26 @@
+package com.ram.producer;
+
+public class MessageSender {
+
+	@Autowired(required=true)
+	JmsTemplate jmsTemplate;
+	
+	public void sendMessage(final String message) {
+		jmsTemplate.send(new MessageCreator() {
+			
+			public Message createMessage(Session session) throws JMSException {
+				// TODO Auto-generated method stub
+				ObjectMessage objectMessage = session.createObjectMessage(message);
+				return objectMessage;
+			}
+		});
+	}
+	
+	
+	/*part3
+	 * 
+	 * sendMessage() will responsible for sending message to queue.
+	 * 
+	 * 
+	 * */
+}

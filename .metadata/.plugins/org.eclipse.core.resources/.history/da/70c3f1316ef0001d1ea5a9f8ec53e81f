@@ -1,0 +1,5 @@
+package com.ram.receiver;
+
+public class MessageReceiver {
+
+}

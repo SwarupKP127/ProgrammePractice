@@ -1,0 +1,21 @@
+package com.ccavenue;
+
+public class MessageConsumerApp {
+
+	public static void main(String[] args) {
+		AbstractApplicationContext context = new AnnotationConfigApplicationContext(
+				AppConfig.class);
+
+		try
+		{
+			Thread.sleep(6000000);
+		}
+		catch (InterruptedException e)
+		{
+			e.printStackTrace();
+		}
+
+		((AbstractApplicationContext) context).close();
+	}
+
+}

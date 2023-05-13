@@ -1,0 +1,10 @@
+package com.ccavenue.config;
+
+
+@Configuration
+@ComponentScan(basePackages = "com.ccavenue")
+@Import({ MessagingConfiguration.class, MessagingListnerConfiguration.class })
+public class AppConfig {
+
+	// Put Other Application configuration here.
+}

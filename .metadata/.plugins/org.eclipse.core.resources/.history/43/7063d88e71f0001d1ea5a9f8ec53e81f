@@ -1,0 +1,5 @@
+package com.ccavenue.model;
+
+public class Product implements Serializable {
+
+}

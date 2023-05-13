@@ -1,0 +1,5 @@
+package com.ccavenue.config;
+
+public class AppConfig {
+
+}

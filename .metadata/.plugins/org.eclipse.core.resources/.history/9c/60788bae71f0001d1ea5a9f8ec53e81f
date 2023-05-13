@@ -1,0 +1,5 @@
+package com.ccavenue.producer;
+
+public class MessageSender {
+
+}
