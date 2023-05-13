@@ -22,5 +22,16 @@ public class MessagingListnerConfiguration {
 		factory.setConcurrency("1-1");
 		return factory;
 	}
+	
+	
+	/*
+	 * MessagingListnerConfiguration is a configuration class.
+	 * Spring container reads configuration class and it creates jmsListenerContainerFactory bean.
+	 * jmsListenerContainer will do read message from queue and pass it to the bean which is annotated with @JmsListener.
+	 * MessagingListnerConfiguration class annotated with @EnableJms annotation and it is used to enable the detection of @JmsListener annotation in the application.
+	 * 
+	 * 
+	 * 
+	 * */
 
 }

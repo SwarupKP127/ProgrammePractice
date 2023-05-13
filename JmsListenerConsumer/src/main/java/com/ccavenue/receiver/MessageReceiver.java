@@ -1,4 +1,4 @@
-package com.ccavenue.model.receiver;
+package com.ccavenue.receiver;
 
 import javax.jms.JMSException;
 import org.springframework.jms.annotation.JmsListener;
@@ -23,4 +23,10 @@ public class MessageReceiver {
 
 	}
 
+	
+	/*
+	 * when ever queue receives message receiveMessage() method called asynchronously.
+	 * 
+	 * 
+	 * */
 }
